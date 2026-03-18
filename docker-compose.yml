@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: ai-knowledge-assistant-chromadb
+    ports:
+      - "8000:8000"
+    environment:
+      # Default is in-memory runtime. Set TRUE and mount a host volume for persistence.
+      - IS_PERSISTENT=FALSE
+      - ANONYMIZED_TELEMETRY=FALSE
+    # Uncomment for persistence mode:
+    # volumes:
+    #   - ./chroma-data:/chroma/chroma
