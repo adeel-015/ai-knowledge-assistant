@@ -11,6 +11,15 @@ Production-ready full-stack RAG application with a LangChain tool-calling agent.
 - ChromaDB vector database
 - TailwindCSS
 
+## 🎥 Demo
+
+A quick demo showing:
+- Knowledge-based retrieval (RAG)
+- Direct LLM responses
+- Transparent source attribution
+
+[![Watch Demo](https://media.geeksforgeeks.org/wp-content/uploads/20250210190608027719/How-Rag-works.webp)](https://youtu.be/rKkIBD9YDwQ)
+
 ## Core Architecture
 
 - `src/lib/rag.ts`
